@@ -1,0 +1,32 @@
+
+{
+	"ENV" : "UBUNTU",
+	"PROJECT_PATH" : 
+	{
+		"UBUNTU" : "",
+		"SERVER2019" : ""
+	},
+	"MID_LEVEL_FEATURE_DATASET_PATH" :
+	{
+		"UBUNTU" : "",
+		"SERVER2019" : ""
+	},
+	"SOUNDTRACKS_PATH" :
+	{
+		"UBUNTU" : "",
+		"SERVER2019" : ""
+	},
+	"SR": 22050, 
+	"AUDIO_PROCESSING_METHOD": "rand_149_313",
+	"TRAIN_PERCENT": 0.7,
+	"VALID_PERCENT": 0.1,
+	"TEST_PERCENT": 0.2,
+	"FILE_SPLIT_FOLDER": "filelists",
+	"EPOCH_NUM": 512,
+	"TRAIN_BATCH_SIZE": 8,
+	"VALID_BATCH_SIZE": 128,
+	"EARLY_STOPPING_PATIENCE": 50,
+	"TRAGET_INFO": ["valence", "energy", "tension", "anger", "fear", "happy", "sad", "tender", "melody", "articulation", "rhythm_complexity", "rhythm_stability", "dissonance", "atonality", "mode"]
+}
+
+
